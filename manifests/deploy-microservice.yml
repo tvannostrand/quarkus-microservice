@@ -57,7 +57,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /teama(/|$)(.*)
+                    -   path: /large-breed(/|$)(.*)
                         backend:
                             serviceName: large-breed-microservice-service
                             servicePort: 30201
